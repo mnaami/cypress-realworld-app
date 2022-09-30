@@ -64,5 +64,4 @@ describe("Bank Accounts", function () {
       .should("contain", "The Best Bank");
     cy.visualSnapshot("Bank Account Created");
   });
-
 });
